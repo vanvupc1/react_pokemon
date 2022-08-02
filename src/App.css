@@ -1,0 +1,48 @@
+.card-body{
+    z-index: 10;
+}
+.heading{
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading h4{
+    padding-right: 10px;
+}
+.card{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+    height: 350px;
+    color: white;
+    transition: all 0.5s;
+}
+.card::before{
+    position: absolute;
+    content: "";
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(204, 202, 202, 0.322);
+}
+.card:hover{
+    opacity: 0.8;
+}
+.card img{
+    z-index: 10;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+.fw-b{
+    font-weight: bold;
+}
+.parameter td{
+    color: white;
+}
+.parameter i{
+    font-size: 30px;
+}
